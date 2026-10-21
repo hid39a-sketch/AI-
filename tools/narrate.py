@@ -1,4 +1,4 @@
-# VOICEVOX（127.0.0.1:50021）の剣崎雌雄で、台本の各行を演出付きで読み上げ、1本のWAVと行ごとのタイミングを出力する
+# AivisSpeech（127.0.0.1:10101）の「AI声優-銀芽」（通常）で、台本の各行を演出付きで読み上げ、1本のWAVと行ごとのタイミングを出力する
 # 使い方: python -I tools/narrate.py <台本.txt> <出力フォルダ>
 # 台本の書式（1行1文。空行と # で始まる行は無視）:
 #   [演出名] 本文      例: [名前] ダンクルオステウス。
@@ -7,8 +7,9 @@
 #   「# =====」で始まる行（章の見出し）の位置には、章の切れ目として SECTION_GAP 秒の無音を入れる
 import json, sys, io, re, os, wave, urllib.request, urllib.parse
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-ENGINE = "http://127.0.0.1:50021"
-SPEAKER = 21  # 剣崎雌雄 ノーマル
+ENGINE = os.environ.get("ENGINE", "http://127.0.0.1:10101")  # 2026-10-21 AivisSpeech に変更。VOICEVOX は ENGINE=http://127.0.0.1:50021
+SPEAKER = int(os.environ.get("SPEAKER", 38453057))  # 既定は AI声優-銀芽「通常」（2026-10-21 決定）。VOICEVOX の剣崎雌雄は 21
+PITCH_SHIFT = float(os.environ.get("PITCH_SHIFT", 0))  # 声を全体に低く（例 -0.05）
 SECTION_GAP = 2.0  # 章の切れ目の無音（秒）
 # 演出名: (速さ, 高さ, 抑揚, 前の間秒, 後の間秒)  2026-10-21 聞き比べで「D 場面ごとに演出」に決定
 PRESETS = {
@@ -52,7 +53,7 @@ def main():
             continue
         sp, pi, it, pre, post_ = PRESETS[r["preset"]]
         q = json.loads(post("/audio_query", {"text": r["speak"], "speaker": SPEAKER}))
-        q.update(speedScale=sp, pitchScale=pi, intonationScale=it, prePhonemeLength=pre, postPhonemeLength=post_)
+        q.update(speedScale=sp, pitchScale=pi + PITCH_SHIFT, intonationScale=it, prePhonemeLength=pre, postPhonemeLength=post_)
         with wave.open(io.BytesIO(post("/synthesis", {"speaker": SPEAKER}, q))) as w:
             params = w.getparams(); f = w.readframes(w.getnframes())
             dur = w.getnframes() / w.getframerate()

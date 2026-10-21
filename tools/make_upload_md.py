@@ -21,7 +21,7 @@ TAGS = {"01": "デボン紀,ダンクルオステウス,古生物,古代生物,�
 NOTES = {"01": [
     "・映像はAIで生成した画像を使った復元イメージです。画面右上に「確認（化石などで確かめられている）」「推定（研究者の推定・説が分かれる）」「演出（映像のための想像）」を表示しています。",
     "・体の色や細かな見た目の多くは分かっていません。",
-    "・ナレーションは音声合成（VOICEVOX）です。",
+    "・ナレーションは音声合成（AivisSpeech）です。",
     "・内容に誤りがあった場合は、固定コメントと概要欄で訂正します。",
 ]}[n]
 LEAD = {"01": [
@@ -52,7 +52,7 @@ for l in lines:
 
 title_m = re.search(r"#   A[^:]*: (.+)", "\n".join(lines))
 title = title_m.group(1).strip() if title_m else ""
-desc = "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "音声：VOICEVOX:剣崎雌雄"])
+desc = "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "ナレーション：AI声優-銀芽"])
 
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(VIDEO)],
                            capture_output=True, text=True).stdout)

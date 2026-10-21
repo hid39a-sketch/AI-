@@ -31,7 +31,7 @@
 | 4 | 日本にも恐竜はいた。1億年前の北海道を歩く（むかわ竜） | 地元・日本の話 |
 | 5 | 人類の祖先は、恐竜の足元で何をしていたか | 先祖の話 |
 
-## 声（2026-10-21 決定：VOICEVOX 剣崎雌雄 id 21、詳細は voice_candidates.md）
+## 声（2026-10-21 夕方に変更：AivisSpeech「AI声優-銀芽」通常 id 38453057、クレジット必須。詳細は voice_candidates.md）
 読み方は「場面ごとに演出」に決定。台本の書き方は scripts/sample_devon.txt、読み上げは tools/narrate.py
 `voice_samples/` に、同じ冒頭の文を5つの声で読ませたサンプルがある（VOICEVOX 0.25.2、読む速さ0.92倍、文末の間0.4秒）。
 - No.7 読み聞かせ（id 31）：二人称の語りと睡眠用に向く
@@ -70,3 +70,4 @@
 - 画像：Geminiで25枚作成（1日目18枚・2日目7枚）。残り22枚（2日目 S24,S25,S26,S27,S29,S32,S33,S35／3日目14枚）。S15は胴体にうろこがあるので作り直し候補
 - 下書き動画：video/ep01/ep01_draft.mp4（19分50秒、tools/assemble.py で約25分で書き出し）。無い画像は「画像なし」の仮画面
 - 投稿用：video/ep01/ep01_upload.md（tools/make_upload_md.py で再生成可）。サムネイル案 video/ep01/thumb_A〜C.png（tools/make_thumbs_ep01.py）。タイトルとサムネイルは未決定
+- BGM：場面ごとの環境音を自前で合成（tools/make_ambience.py → audio/ep01_draft/ambience.wav）。要所の曲は YouTube オーディオライブラリから後で選ぶ（bgm_candidates.md）
