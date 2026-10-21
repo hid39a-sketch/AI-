@@ -50,7 +50,7 @@ for l in lines:
     if m and not m.group(2).startswith("（") and m.group(1) not in SKIP_REFS:
         refs.append("・" + re.sub(r"doi:(10\.\S+)", r"https://doi.org/\1", m.group(2)))
 
-title_m = re.search(r"#   A: (.+)", "\n".join(lines))
+title_m = re.search(r"#   A[^:]*: (.+)", "\n".join(lines))
 title = title_m.group(1).strip() if title_m else ""
 desc = "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "音声：VOICEVOX:剣崎雌雄"])
 
@@ -64,7 +64,7 @@ doc = f"""# 第{int(n)}話 投稿用の入力内容
   - サムネイル：`ep{n}_thumbnail.png`（1280×720）
   - 字幕：`ep{n}_subtitles.srt`（日本語・タイミングあり）
 - 目次の時刻は、ナレーションの時刻表から計算した値（動画の頭に何も足していない前提）
-- タイトルは台本冒頭の案Aを仮に入れている。決まったら差し替える
+- タイトル・サムネイルは案Aで決定（2026-10-21）
 - 説明は5,000字以内（YouTubeの上限）：現在 {len(desc)} 字
 
 ---
