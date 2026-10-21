@@ -1,0 +1,11 @@
+# 作り直せる・大きいファイルはリポジトリに入れない
+audio/
+video/**/*.mp4
+video/**/work/
+video/**/frames/
+video/**/thumb_src/
+tools/test_assets/
+images/**/graphics_src/
+voice_samples/**/*.wav
+__pycache__/
+video/ep01_test/
