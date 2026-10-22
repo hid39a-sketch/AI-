@@ -5,9 +5,13 @@
 import json, subprocess, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt"}
+SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt", "03": "ep03_permian.txt"}
 # (曲ファイル, 台本の見出しの文字列, 鳴らす長さ秒（None は最後まで）, 見出しの何秒前から鳴らし始めるか)
-CUES = {"02": [
+CUES = {"03": [
+    ("Event_Horizon.mp3", "# ===== 冒頭", 75, 0),
+    ("False_Vacuum_Decay.mp3", "# ===== 4. 最大の絶滅", 70, 3),
+    ("Laniakea.mp3", "# ===== 結び", None, 3),
+], "02": [
     ("Event_Horizon.mp3", "# ===== 冒頭", 75, 0),
     ("False_Vacuum_Decay.mp3", "# ===== 9. 森が崩れる", 70, 3),
     ("Laniakea.mp3", "# ===== 結び", None, 3),
