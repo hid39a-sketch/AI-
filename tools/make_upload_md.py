@@ -68,7 +68,7 @@ title_m = re.search(r"#   [A-C]（決定[^:]*: (.+)", joined) or re.search(r"#  
 title = title_m.group(1).strip() if title_m else ""
 
 def build(refs):
-    return "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "ナレーション：AI声優-銀芽"])
+    return "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "ナレーション：阿井田 茂（AivisSpeech）"])
 
 def compact(r):
     # 説明が長すぎるときだけ：各文献を「著者（年）＋リンク」に縮める。「／」で区切られた複数文献はそれぞれ縮める
