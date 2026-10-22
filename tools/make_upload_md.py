@@ -54,11 +54,14 @@ for i, l in enumerate(lines, 1):
             t = 0 if not toc else max(0, start_of[nxt] - 0.3)
             toc.append(f"{int(t // 60)}:{int(t % 60):02d} {name}")
 
-refs = []
+refs, all_refs = [], []
 for l in lines:
     m = re.match(r"# \[(\d+)\] (.+)", l)
-    if m and not m.group(2).startswith("（") and m.group(1) not in SKIP_REFS:
-        refs.append("・" + re.sub(r"doi:(10\.\S+)", r"https://doi.org/\1", m.group(2)))
+    if m and not m.group(2).startswith("（"):
+        r = "・" + re.sub(r"doi:(10\.\S+)", r"https://doi.org/\1", m.group(2))
+        all_refs.append(r)
+        if m.group(1) not in SKIP_REFS:
+            refs.append(r)
 
 joined = "\n".join(lines)
 title_m = re.search(r"#   [A-C]（決定[^:]*: (.+)", joined) or re.search(r"#   A[^:]*: (.+)", joined)
@@ -79,8 +82,11 @@ def compact(r):
     return "・" + " ／ ".join(parts)
 
 desc = build(refs)
-if len(desc) > 4900:
+short = len(desc) > 4900
+if short:
     desc = build([compact(r) for r in refs])
+# 固定コメント（上限10,000字）：省略しない参考文献の全文。説明欄は目次（チャプター）を残すため短いまま
+pinned = "\n".join(["▼参考文献（全文）"] + all_refs + ["", "内容に誤りがあった場合は、このコメントと概要欄で訂正します。"])
 
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(VIDEO)],
                            capture_output=True, text=True).stdout)
@@ -112,6 +118,13 @@ doc = f"""# 第{int(n)}話 投稿用の入力内容
 {TAGS}
 ```
 
+## 固定コメント（コピー用）
+- 公開したあとに投稿して「固定」する（非公開の動画にはコメントできない）。現在 {len(pinned)} 字（上限10,000字）
+- リンクが多いので自動で保留されることがある。投稿後、ログアウトした画面か Studio の「コメント」で表示されているか確認する
+```
+{pinned}
+```
+
 ---
 
 ## アップロード画面の設定
@@ -130,4 +143,5 @@ doc = f"""# 第{int(n)}話 投稿用の入力内容
 """
 out = ROOT / "video" / f"ep{n}" / f"ep{n}_upload.md"
 out.write_text(doc, encoding="utf-8")
-print(out, len(desc), "字")
+print(out, "説明", len(desc), "字", "固定コメント", len(pinned), "字")
+assert len(pinned) <= 10000, "固定コメントが10,000字を超えた"
