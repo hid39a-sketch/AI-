@@ -1,7 +1,7 @@
 # 第1話の図（G01〜G06）をHTMLで作り、Edge（ヘッドレス）で1920x1080のPNGに変換する
 # 使い方: python -I tools/make_graphics_ep01.py   （ONLY=G01,G03 のように指定すると、その図だけ作り直す）
 # 数値はすべて scripts/ep01_devon.txt のナレーションと参考文献に一致させること
-# 画面下140pxは字幕用、右上は信頼度の表示用に空ける
+# 画面下140pxは字幕用、右上は信頼度の表示用に空ける。出典は字幕に隠れないよう左上に置く
 import subprocess, pathlib, html, tempfile, time, os
 
 ONLY = [x for x in os.environ.get("ONLY", "").split(",") if x]
@@ -20,7 +20,7 @@ html,body{width:1920px;height:1080px;background:radial-gradient(ellipse at 50% 0
 .wrap{position:absolute;inset:70px 120px 160px}
 h1{font-size:56px;font-weight:700;letter-spacing:.03em;margin-bottom:40px}
 h1 small{display:block;font-size:28px;font-weight:400;color:var(--sub);margin-top:12px}
-.src{position:absolute;left:120px;bottom:150px;font-size:20px;color:var(--sub)}
+.src{position:absolute;left:120px;top:26px;font-size:20px;color:var(--sub);max-width:1500px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sea{color:var(--sea)}.sand{color:var(--sand)}.red{color:var(--red)}.green{color:var(--green)}.sub{color:var(--sub)}
 """
 
