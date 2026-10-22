@@ -60,9 +60,27 @@ for l in lines:
     if m and not m.group(2).startswith("（") and m.group(1) not in SKIP_REFS:
         refs.append("・" + re.sub(r"doi:(10\.\S+)", r"https://doi.org/\1", m.group(2)))
 
-title_m = re.search(r"#   A[^:]*: (.+)", "\n".join(lines))
+joined = "\n".join(lines)
+title_m = re.search(r"#   [A-C]（決定[^:]*: (.+)", joined) or re.search(r"#   A[^:]*: (.+)", joined)
 title = title_m.group(1).strip() if title_m else ""
-desc = "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "ナレーション：AI声優-銀芽"])
+
+def build(refs):
+    return "\n".join(LEAD + ["", "▼目次"] + toc + ["", "▼参考文献"] + refs + ["", "▼この動画について"] + NOTES + ["", "ナレーション：AI声優-銀芽"])
+
+def compact(r):
+    # 説明が長すぎるときだけ：各文献を「著者（年）＋リンク」に縮める。「／」で区切られた複数文献はそれぞれ縮める
+    parts = []
+    for seg in r.lstrip("・").split("／"):
+        seg = seg.strip()
+        m = re.match(r"(.+?\(\d{4}[a-z]?\))", seg)
+        urls = re.findall(r"https?://\S+", seg)
+        head = m.group(1) if m else re.sub(r"https?://\S+", "", seg).strip()[:40]
+        parts.append((head + " " + " ".join(urls)).strip())
+    return "・" + " ／ ".join(parts)
+
+desc = build(refs)
+if len(desc) > 4900:
+    desc = build([compact(r) for r in refs])
 
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(VIDEO)],
                            capture_output=True, text=True).stdout)
