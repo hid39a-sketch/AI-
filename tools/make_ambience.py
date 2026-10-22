@@ -37,6 +37,10 @@ def waves(period=6.5, amp=0.5):
 def wind(amp=0.35, period=11):
     return [(noise("pink", 0.5), f"bandpass=f=700:width_type=q:w=0.8,volume='{amp}*(0.4+0.6*pow(0.5+0.5*sin(2*PI*t/{period}),2))':eval=frame")]
 
+def buzz(amp=0.06, freq=2400, period=5):
+    # 遠くの羽音（高い帯域の雑音を、ゆっくり強弱させる）
+    return [(noise("white", 0.4), f"bandpass=f={freq}:width_type=q:w=6,volume='{amp}*pow(0.5+0.5*sin(2*PI*t/{period}),3)':eval=frame")]
+
 def drips(amp=0.15):
     g = "if(lt(mod(t,3.1),0.012),1,0)+if(lt(mod(t+1.7,4.7),0.012),0.8,0)+if(lt(mod(t+0.4,5.9),0.012),0.6,0)"
     return [(sine(1400), f"volume='{amp}*({g})':eval=frame,aecho=0.6:0.5:180:0.3")]
@@ -50,12 +54,15 @@ TEXTURES = {
     "forest":  wind(0.30, 11) + drips(0.12) + drone([49, 73.42, 98], 0.14),
     "murky":   water(300, 0.75, 19) + drone([43.65, 51.91, 65.41], 0.30),
     "dark":    water(200, 0.85, 23) + drone([36.71, 43.65, 55], 0.32),
+    "swamp":   water(420, 0.45, 15) + drips(0.10) + buzz(0.05, 2400, 6) + drone([49, 73.42, 98, 146.83], 0.18),
+    "dry":     wind(0.40, 9) + drone([41.2, 61.74, 82.41], 0.20),
     "calm":    water(600, 0.5) + drone([55, 82.41, 110, 138.59, 164.81], 0.26) + bubbles(4.3, 1000, 0.08),
 }
 
 # 台本の見出しの順に当てる音（ep01：冒頭,1,2,2b,3,3b,4,5,6,7,結び,参考文献）
-SCENES = {"01": ["shallow", "shallow", "shallow", "deep", "reef", "reef", "shore", "forest", "murky", "dark", "calm", None]}
-SCRIPTS = {"01": "ep01_devon.txt"}
+SCENES = {"02": ["swamp", "swamp", "calm", "swamp", "forest", "shore", "calm", "murky", "forest", "dry", "calm", None],
+          "01": ["shallow", "shallow", "shallow", "deep", "reef", "reef", "shore", "forest", "murky", "dark", "calm", None]}
+SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt"}
 
 def render(name, dur, out):
     parts = TEXTURES[name]

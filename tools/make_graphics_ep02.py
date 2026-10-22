@@ -20,7 +20,7 @@ html,body{width:1920px;height:1080px;background:radial-gradient(ellipse at 50% 0
 .wrap{position:absolute;inset:70px 120px 160px}
 h1{font-size:56px;font-weight:700;letter-spacing:.03em;margin-bottom:40px}
 h1 small{display:block;font-size:28px;font-weight:400;color:var(--sub);margin-top:12px}
-.src{position:absolute;left:120px;bottom:150px;font-size:20px;color:var(--sub)}
+.src{position:absolute;left:120px;top:26px;font-size:20px;color:var(--sub);max-width:1500px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sea{color:var(--sea)}.sand{color:var(--sand)}.red{color:var(--red)}.green{color:var(--green)}.sub{color:var(--sub)}
 .card{border:2px solid var(--line);border-radius:24px;background:rgba(255,255,255,.03)}
 svg text{font-family:"Noto Sans JP","Yu Gothic","Meiryo",sans-serif}
