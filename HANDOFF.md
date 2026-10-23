@@ -71,3 +71,9 @@
 - 下書き動画：video/ep01/ep01_draft.mp4（19分50秒、tools/assemble.py で約25分で書き出し）。無い画像は「画像なし」の仮画面
 - 投稿用：video/ep01/ep01_upload.md（tools/make_upload_md.py で再生成可）。サムネイル案 video/ep01/thumb_A〜C.png（tools/make_thumbs_ep01.py）。タイトルとサムネイルは未決定
 - BGM：場面ごとの環境音を自前で合成（tools/make_ambience.py → audio/ep01_draft/ambience.wav）。要所の曲は YouTube オーディオライブラリから後で選ぶ（bgm_candidates.md）
+
+## 公開状況（2026-10-23）
+- 第1話：公開 https://youtu.be/uB0MLZjvtds （声を阿井田 茂に差し替えて上げ直し。古い下書きは削除）。参考文献の固定コメント済み。**字幕は未登録**（update_captions が 400。ファイルではなく動画側の原因。右のブラウザで「手動でアップロード→タイムコードあり→続行」のファイル入力に、GitHub の raw から読んだ srt を DataTransfer で渡す方法なら人手なしで試せる）
+- ショート：公開 https://youtube.com/shorts/4_5qGA_h6bc （tools/make_short.py ep01_dunk、関連動画に第1話を接続）
+- 第2話・第3話：完成済み・未アップロード。第4〜6話：仮組み済み（Gemini画像の残りは第4話S13以降・第5話・第6話）
+- 第4話の S01・S29・S31・S18 は背景にヤシ風の木あり（やり直し候補）
