@@ -61,10 +61,14 @@ TEXTURES = {
 
 # 台本の見出しの順に当てる音（ep01：冒頭,1,2,2b,3,3b,4,5,6,7,結び,参考文献）
 # ep03：冒頭,1,2,3,4,5,6,7,8,結び,参考文献（乾いた内陸→グロッソプテリスの森→絶滅の海→火山→生き残り→回復）
-SCENES = {"03": ["dry", "dry", "dry", "forest", "murky", "dark", "murky", "dry", "shore", "calm", None],
+# ep04〜06：冒頭,1〜9（ep05は1〜8）,結び,参考文献
+SCENES = {"04": ["dry", "dry", "deep", "shore", "forest", "dry", "swamp", "calm", "dark", "dry", "calm", None],
+          "05": ["swamp", "shore", "forest", "deep", "dry", "dry", "forest", "forest", "calm", "calm", None],
+          "06": ["swamp", "shallow", "forest", "forest", "swamp", "forest", "deep", "shore", "forest", "dry", "calm", None],
+          "03": ["dry", "dry", "dry", "forest", "murky", "dark", "murky", "dry", "shore", "calm", None],
           "02": ["swamp", "swamp", "calm", "swamp", "forest", "shore", "calm", "murky", "forest", "dry", "calm", None],
           "01": ["shallow", "shallow", "shallow", "deep", "reef", "reef", "shore", "forest", "murky", "dark", "calm", None]}
-SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt", "03": "ep03_permian.txt"}
+SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt", "03": "ep03_permian.txt", "04": "ep04_triassic.txt", "05": "ep05_jurassic.txt", "06": "ep06_cretaceous.txt"}
 
 def render(name, dur, out):
     parts = TEXTURES[name]

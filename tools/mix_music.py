@@ -5,9 +5,21 @@
 import json, subprocess, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt", "03": "ep03_permian.txt"}
+SCRIPTS = {"01": "ep01_devon.txt", "02": "ep02_carboniferous.txt", "03": "ep03_permian.txt", "04": "ep04_triassic.txt", "05": "ep05_jurassic.txt", "06": "ep06_cretaceous.txt"}
 # (曲ファイル, 台本の見出しの文字列, 鳴らす長さ秒（None は最後まで）, 見出しの何秒前から鳴らし始めるか)
-CUES = {"03": [
+CUES = {"04": [
+    ("Event_Horizon.mp3", "# ===== 冒頭", 75, 0),
+    ("False_Vacuum_Decay.mp3", "# ===== 8. 大地が裂ける", 70, 3),
+    ("Laniakea.mp3", "# ===== 結び", None, 3),
+], "05": [
+    ("Event_Horizon.mp3", "# ===== 冒頭", 75, 0),
+    ("False_Vacuum_Decay.mp3", "# ===== 6. アロサウルスとステゴサウルス", 70, 3),
+    ("Laniakea.mp3", "# ===== 結び", None, 3),
+], "06": [
+    ("Event_Horizon.mp3", "# ===== 冒頭", 75, 0),
+    ("False_Vacuum_Decay.mp3", "# ===== 8. 暴君の素顔", 70, 3),
+    ("Laniakea.mp3", "# ===== 結び", None, 3),
+], "03": [
     ("Event_Horizon.mp3", "# ===== 冒頭", 75, 0),
     ("False_Vacuum_Decay.mp3", "# ===== 4. 最大の絶滅", 70, 3),
     ("Laniakea.mp3", "# ===== 結び", None, 3),
