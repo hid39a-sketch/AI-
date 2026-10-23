@@ -122,11 +122,26 @@ def compact(r):
     return "・" + " ／ ".join(parts)
 
 desc = build(refs)
-short = len(desc) > 4900
-if short:
+if len(desc) > 4900:
     desc = build([compact(r) for r in refs])
-# 固定コメント（上限10,000字）：省略しない参考文献の全文。説明欄は目次（チャプター）を残すため短いまま
-pinned = "\n".join(["▼参考文献（全文）"] + all_refs + ["", "内容に誤りがあった場合は、このコメントと概要欄で訂正します。"])
+if len(desc) > 4900:
+    # 縮めても入らないときは、説明欄には文献を載せず固定コメントに回す
+    desc = build(["・参考文献は固定コメントに載せています。"])
+# 固定コメント（上限10,000字）：参考文献の全文。入らなければ縮めた形、それでも入らなければ複数のコメントに分ける（2つ目以降は固定コメントへの返信にする）
+TAIL = ["", "内容に誤りがあった場合は、このコメントと概要欄で訂正します。"]
+def comments(rs):
+    out, cur = [], []
+    for r in rs:
+        if cur and len("\n".join(["▼参考文献（全文）"] + cur + [r] + TAIL)) > 9800:
+            out.append(cur); cur = []
+        cur.append(r)
+    out.append(cur)
+    n = len(out)
+    return ["\n".join([f"▼参考文献（全文）{f' {i}/{n}' if n > 1 else ''}"] + c + (TAIL if i == n else [])) for i, c in enumerate(out, 1)]
+pins = comments(all_refs)
+if len(pins) > 1:
+    pins = comments([compact(r) for r in all_refs])
+pinned = "\n\n----- 次のコメント（固定コメントへの返信として投稿） -----\n\n".join(pins)
 
 dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(VIDEO)],
                            capture_output=True, text=True).stdout)
@@ -159,7 +174,7 @@ doc = f"""# 第{int(n)}話 投稿用の入力内容
 ```
 
 ## 固定コメント（コピー用）
-- 公開したあとに投稿して「固定」する（非公開の動画にはコメントできない）。現在 {len(pinned)} 字（上限10,000字）
+- 公開したあとに投稿して「固定」する（非公開の動画にはコメントできない）。コメント{len(pins)}件・各 {'・'.join(str(len(x)) for x in pins)} 字（1件の上限10,000字）
 - リンクが多いので自動で保留されることがある。投稿後、ログアウトした画面か Studio の「コメント」で表示されているか確認する
 ```
 {pinned}
@@ -183,5 +198,5 @@ doc = f"""# 第{int(n)}話 投稿用の入力内容
 """
 out = ROOT / "video" / f"ep{n}" / f"ep{n}_upload.md"
 out.write_text(doc, encoding="utf-8")
-print(out, "説明", len(desc), "字", "固定コメント", len(pinned), "字")
-assert len(pinned) <= 10000, "固定コメントが10,000字を超えた"
+print(out, "説明", len(desc), "字", "固定コメント", [len(x) for x in pins], "字")
+assert len(desc) <= 5000 and all(len(x) <= 10000 for x in pins), "上限を超えた"
