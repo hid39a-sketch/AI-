@@ -1,0 +1,376 @@
+# 第5話 ジュラ紀：巨人たちと最初の鳥（初稿 2026-10-23）
+# タイトル案（強いつかみ。「旅する」を前に出さない）
+#   A: 全長25m前後、なのに食べ物は噛まずに丸のみ。陸を歩いた最大の動物は、なぜここまで大きくなれたのか【ジュラ紀】
+#   B: 鳥は恐竜の子孫だった。始祖鳥と羽毛の恐竜、1億5000万年前に空へ向かった仲間たち【ジュラ紀】
+#   C: 恐竜の足元で、哺乳類は泳ぎ、滑空し、土を掘っていた。小さくても多彩だった、私たちにつながる仲間【ジュラ紀】
+#
+# 書式: [演出名] 本文 ／ {表記|よみ} ／ # で始まる行は読まない
+# 「# 画面:」は画面に出す信頼度の表示。確認＝化石や地層で確かめられている／推定＝研究者の推定・説が分かれる／演出＝映像のための想像
+# 「# 根拠:」は出典。末尾の参考文献の番号
+
+# ===== 冒頭 =====
+# 画面: 確認（全長は博物館の資料）／推定（噛まずに飲み込んだこと）
+# 根拠: [20][25][43]
+[溜め] 全長、二十五メートル前後。陸を歩いた動物の中で、最も大きな仲間の一つです。
+[溜め] それなのに、この動物は、食べた植物を、ほとんど噛まずに、飲み込んでいたと考えられています。
+# 画面: 演出（景色は想像）
+目を開けると、あなたは、霧の立ちこめる川辺に立っています。
+[解説] 前回の旅の終わりに、あなたは、大量絶滅をくぐり抜けた恐竜たちを見送りました。
+# 根拠: [13]
+[提示] ここは、それから五千万年ほどがたった、およそ一億五千万年前。ジュラ紀の後半です。
+# 根拠: [1][19]
+足元の地面が、低く、ずしんと揺れました。
+[転換] 針葉樹の林の向こうから、とてつもなく長い首が、ゆっくりと現れます。
+[解説] 首の長い、巨大な植物食の恐竜です。
+# 画面: 確認
+今日は、恐竜が、陸の主役になった時代を歩きます。
+[解説] 巨人たちは、なぜ、あれほど大きくなれたのか。そして、恐竜の中から、どのようにして鳥が生まれたのか。その謎を、たどっていきます。
+
+# ===== 1. 裂けていく大陸 =====
+[転換] まずは、この時代の地球の様子から見ていきましょう。
+[提示] ジュラ紀は、二億百万年前から、一億四千三百万年前まで続いた時代です。
+# 画面: 確認
+# 根拠: [1]
+[解説] 名前は、フランスとスイスの国境にある、ジュラ山脈から来ています。この時代の岩が、最初に詳しく調べられた場所です。
+# 根拠: [2]
+[解説] 前回の時代まで、陸地は、ほとんどがひとつにつながった大陸、パンゲアでした。
+[解説] そのパンゲアが、二億年前ごろから、裂け始めます。北のローラシアと、南のゴンドワナ。大きな二つの陸に、分かれていったのです。
+# 画面: 推定（大陸の形と位置は研究による復元）
+# 根拠: [3]
+[解説] 北アメリカとアフリカのあいだの裂け目には、やがて、新しい海の底が、少しずつ広がり始めました。いまの大西洋の始まりです。
+# 画面: 推定
+# 根拠: [4][5]
+[解説] その始まりを、一億九千万年前ごろとする研究もあれば、もっとあとだとする見方もあります。
+# 画面: 推定（説が分かれている）
+# 根拠: [4]
+[転換] 気候も見ておきましょう。
+[解説] ジュラ紀の地球は、全体に、いまより暖かかったと考えられています。北極や南極に近い場所の気温が、いまより十度から二十度も高かった時期がある、という研究もあります。
+# 画面: 推定
+# 根拠: [6]
+[解説] ただし、短い寒い時期もあったとみられ、北極や南極に氷があったかどうかは、研究者のあいだで議論が続いています。
+# 根拠: [7]
+[転換] 森をつくっていたのは、いまのセコイアやイトスギ、マツ、イチイに近い針葉樹、それに、イチョウや、ソテツの仲間、シダなどでした。
+# 画面: 確認
+# 根拠: [2]
+[溜め] そして、この森にも、まだ、花は見当たりません。
+[解説] 花を咲かせる植物の、確かな最も古い化石は、次の白亜紀の、初めごろの花粉です。
+# 画面: 確認
+# 根拠: [8][9]
+[解説] けれど、いまの植物の遺伝子から、さかのぼって計算すると、花を咲かせる植物の始まりは、ジュラ紀か、それより前になる、という結果が多く出ています。
+# 画面: 推定（説が分かれている）
+# 根拠: [10]
+[解説] 中国では、ジュラ紀の花だとする化石も報告されました。ただし、本当に花なのかどうかは、まだ議論が続いています。
+# 根拠: [11]
+
+# ===== 2. 主役になった恐竜 =====
+[転換] 前回、三畳紀の終わりの大量絶滅を、恐竜は生き延びました。
+# 根拠: [13]
+[解説] 北アメリカの東部で、足跡や骨の化石を調べた研究では、絶滅から十万年もたたないうちに、恐竜が中心の顔ぶれが、できあがっていました。
+# 画面: 確認（足跡と骨の記録）／推定（その解釈）
+# 根拠: [12]
+[解説] 生き残った恐竜たちは、ジュラ紀に入ると、急速に種類を増やし、さまざまな暮らしへと広がっていきます。
+# 根拠: [13]
+[解説] 首の長い、巨大な植物食の恐竜も、その一つです。けれど、彼らが、大きな植物食の動物の主役になったのは、ジュラ紀の前半の、終わりごろのことでした。
+# 画面: 推定
+# 根拠: [14]
+[解説] {二〇二〇年|にせんにじゅうねん}の研究は、アルゼンチンの地層を調べ、およそ一億八千四百万年前から一億八千万年前に、南の大陸で起きた、大規模な火山活動に注目しました。
+# 根拠: [14]
+[解説] そのあと、気候が大きく乱れ、植物の種類が大きく減りました。そして、{首|くび}の長い恐竜の親戚にあたる仲間がいくつも姿を消し、{首|くび}の長い恐竜が主役になった、と考えています。
+# 画面: 推定
+# 根拠: [14]
+
+# ===== 3. 海の竜 =====
+[転換] 少し寄り道をして、海をのぞいてみましょう。
+[提示] およそ二億年前。ジュラ紀の初め。いまのイギリスの南の海岸のあたりは、海の中でした。
+# 根拠: [15]
+# 画面: 演出（景色は想像）
+あなたは、薄暗い海の中を漂っています。
+[転換] すぐそばを、流れるような形の影が、すばやく横切りました。
+[名前] {魚竜|ぎょりゅう}です。前回、三畳紀の海で出会った、魚のような姿の、海で暮らす爬虫類の仲間です。
+# 画面: 確認
+[解説] {二〇一八年|にせんじゅうはちねん}の研究は、ドイツで見つかった、ジュラ紀の前半の{魚竜|ぎょりゅう}の化石に残っていた、皮ふのあとを調べました。
+# 根拠: [16]
+[解説] 皮ふの下には、厚い脂肪の層があったとみられます。体の熱を逃がしにくく、体温を保てた可能性がある、と研究チームは考えています。
+[解説] 色のもとになる粒の並び方からは、背中が暗く、お腹が明るい、目立ちにくい色だったと考えられています。
+# 画面: 確認（皮ふのあと）／推定（体温と色）
+# 根拠: [16]
+[解説] そして{魚竜|ぎょりゅう}は、卵ではなく、子どもを産んでいました。{お腹の中|おなかのなか}に、子どもが入ったままの化石が、見つかっているのです。
+# 画面: 確認
+# 根拠: [17]
+[転換] 向こうの岩陰に、もう一つ、変わった姿の動物がいます。
+小さな頭に、とても長い首。平たい胴から、四枚の大きなひれが伸びています。
+[名前] プレシオサウルス。首の長い、海で暮らす爬虫類で、{首長竜|くびながりゅう}とも呼ばれる仲間です。これも、恐竜ではありません。
+# 画面: 確認（骨格）／演出（体の色）
+[解説] 首の長さは、胴と尾を合わせたほどもありました。
+# 根拠: [15]
+[解説] {二〇二五年|にせんにじゅうごねん}には、ドイツで見つかった、およそ一億八千三百万年前のプレシオサウルスの仲間の化石から、皮ふのあとが報告されました。
+[解説] 尾のまわりの皮ふは、うろこのない、なめらかなものでした。一方、ひれには、小さな三角形の、うろこのようなものが並んでいました。
+# 画面: 確認
+# 根拠: [18]
+[転換] これらの海の爬虫類の化石を、二百年あまり前に、イギリスの海岸で次々に掘り出した人がいます。
+[名前] メアリー・アニング。
+# 根拠: [15]
+[解説] {一八一一年|せんはっぴゃくじゅういちねん}、兄のジョセフが、奇妙な{頭の骨|あたまのほね}を見つけました。翌年、まだ十代の初めだったメアリーが、長さ五メートルほどの{魚竜|ぎょりゅう}の骨格を掘り出します。
+# 画面: 確認
+# 根拠: [15]
+[解説] {一八二三年|せんはっぴゃくにじゅうさんねん}には、プレシオサウルスの全身の骨格を、初めて見つけました。
+# 根拠: [15]
+
+# ===== 4. モリソン層の巨人たち =====
+[転換] 陸に戻りましょう。
+[提示] およそ一億五千七百万年前から、一億五千万年前。いまの北アメリカの西部です。
+# 根拠: [19]
+# 画面: 演出（景色は想像。川と氾濫原だったことは地層からわかる）
+あなたは、どこまでも続く、平らな土地に立っています。
+曲がりくねった川の岸に、針葉樹やシダの茂みが続いています。
+[解説] この時代の川や、あふれた水が運んだ泥や砂は、いま、アメリカの西部の、十二の州にまたがる地層として残っています。
+# 画面: 確認
+# 根拠: [19]
+[名前] モリソン層。コロラド州のモリソンという町の近くで調べられたことから、名前がつきました。
+# 根拠: [19]
+[解説] 当時は、広い平原を川が流れ、ひどい干ばつにも、少なくとも三回みまわれた土地だったと考えられています。
+# 画面: 推定
+# 根拠: [19]
+[解説] そして、恐竜の化石が豊富に見つかることで、世界的に知られる地層です。
+# 根拠: [19]
+[転換] 川岸で、巨大な恐竜が、{首|くび}を低く伸ばして、地面近くの植物を食べています。
+# 画面: 演出（場面は想像）
+[名前] ディプロドクス。首の長い、巨大な植物食の恐竜です。
+[解説] 全長は、二十五メートル前後。大きな路線バスを、二台並べたよりも長い体です。
+# 画面: 確認（骨格）／推定（全長）
+# 根拠: [20]
+[転換] その向こうに、肩を高く持ち上げた、さらに重そうな恐竜がいます。
+[名前] ブラキオサウルス。前脚が長く、体の重さの多くを、前のほうにかけていました。
+# 画面: 確認（骨）
+# 根拠: [21]
+[解説] 体重は、およそ二十九トンと見積もられています。
+# 画面: 推定
+# 根拠: [21]
+[解説] 実は、よく知られた、背の高いブラキオサウルスの姿の多くは、アフリカで見つかった、よく似た別の恐竜をもとにしています。
+[解説] {二〇〇九年|にせんきゅうねん}の研究で、二つは別の仲間だと結論づけられ、アフリカの恐竜は、ギラファティタンという名前で呼ばれるようになりました。
+# 画面: 確認
+# 根拠: [21]
+[解説] モリソン層からは、ほかにも、アパトサウルス、カマラサウルス、そして、{二〇一五年|にせんじゅうごねん}の研究で、再び独立した仲間として認められたブロントサウルスなど、首の長い恐竜が、何種類も見つかっています。
+# 画面: 確認
+# 根拠: [22]
+[転換] これほど多くの巨人が、どうやって、食べ物を分け合っていたのでしょうか。
+[解説] 口先の形や、歯に残った細かい傷を調べた研究では、ディプロドクスやアパトサウルスは、地面に近い高さの植物を、選ばずに食べていたとみられています。
+# 画面: 推定
+# 根拠: [23]
+[解説] 一方、{頭の骨|あたまのほね}が頑丈なカマラサウルスは、ディプロドクスより強い力でかむことができ、硬い植物も食べられた、と考えられています。
+# 根拠: [24]
+
+# ===== 5. 巨人の秘密 =====
+[転換] それにしても、なぜ、これほど大きくなれたのでしょうか。
+[解説] {二〇一一年|にせんじゅういちねん}に、ドイツを中心とする研究グループがまとめた研究は、いくつもの特徴が組み合わさった結果だ、と考えています。
+# 画面: 推定
+# 根拠: [25]
+[解説] 一つ目は、長い首です。巨大な体を動かさずに、{首|くび}だけを動かして、広い範囲の植物を食べることができました。ほかの植物食の動物が届かない場所の葉にも、届いたと考えられています。
+# 根拠: [25]
+[解説] 二つ目は、噛まないことです。植物を、ほとんど噛まずに飲み込んでいたので、頭を小さく、軽くできました。頭が軽ければ、首を長くしても支えられます。
+# 根拠: [25]
+[解説] 三つ目は、空気の袋です。いまの鳥と同じように、肺につながる空気の袋を体の中に持ち、骨の中にまで、空気の入る空間が広がっていました。
+[解説] これで、体は軽くなり、息をするのも効率がよくなった、と考えられています。
+# 画面: 確認（骨の中の空間）／推定（その働き）
+# 根拠: [25]
+[解説] 四つ目は、卵です。陸の哺乳類は、体が大きいほど、産む子の数が少なくなります。けれど、{首|くび}の長い恐竜は、小さな子どもを、毎年、たくさん産んでいたとみられます。数が減っても、早く取り戻すことができたのです。
+# 根拠: [25]
+[解説] そして五つ目は、成長の速さです。骨の断面に残る成長の跡を調べると、彼らが、とても速く育っていたことがわかります。
+[解説] 大人の大きさになるまでは、四十年もかからなかった、とされます。成長が最も速い時期には、一年に、五百キログラムから二トンほども、体重が増えていた可能性があります。
+# 画面: 推定
+# 根拠: [25]
+[転換] では、あの長い首を、彼らは、どんな角度で持っていたのでしょうか。
+[解説] いまの動物の首の姿勢と比べて、高く持ち上げていたと考える研究もあれば、地面とほぼ水平に伸ばし、低いところの植物を食べていたと考える研究もあります。この議論は、いまも続いています。
+# 画面: 推定（説が分かれている）
+# 根拠: [26]
+
+# ===== 6. アロサウルスとステゴサウルス =====
+[転換] 巨人たちのいる平原には、それを狙う者もいました。
+# 画面: 演出（場面は想像）
+林の陰から、大きな頭の肉食恐竜が、二本の脚で、静かに歩み出てきます。
+[名前] アロサウルス。ジュラ紀の後半の北アメリカを代表する、大型の肉食恐竜です。
+# 根拠: [27]
+[解説] {二〇二〇年|にせんにじゅうねん}には、新しい種類が報告されました。全長は八メートルから九メートル、体重は{一・八|いってんはち}トンほど。口には、鋭い歯が八十本ほど並んでいました。
+# 画面: 確認（化石）／推定（大きさ）
+# 根拠: [27]
+[転換] アロサウルスは、どうやって獲物をしとめたのでしょうか。
+[解説] {二〇〇一年|にせんいちねん}の研究は、{頭の骨|あたまのほね}の強さをコンピューターで調べ、とても特殊な食べ方をしていた可能性を示しました。口を大きく開け、頭ごと勢いよく打ちつける、斧を振り下ろすようなかみつき方だった、と紹介されました。ただし、この考えには、反論も出されています。
+# 画面: 推定（説が分かれている）
+# 根拠: [28]
+[解説] 生きた獲物を狩るより、死骸をあさって暮らしていたのではないか、という研究もあります。
+[解説] {二〇二一年|にせんにじゅういちねん}の研究は、コンピューターの中に、当時の生き物の世界を再現し、巨大な首の長い恐竜の死骸が、肉食恐竜にとって、十分な食べ物になったはずだと考えました。
+# 画面: 推定（説が分かれている）
+# 根拠: [29]
+[解説] けれど、{二〇二三年|にせんにじゅうさんねん}には、その計算の前提に疑問を示す研究が出ています。狩りをしたのか、死骸をあさったのか。答えは、まだ一つではありません。
+# 根拠: [29]
+[転換] その平原に、背中に大きな板を並べた恐竜がいます。
+# 画面: 演出（場面は想像）
+[名前] ステゴサウルス。背中に、骨でできた大きな板が並び、尾の先には、鋭いとげがありました。
+# 画面: 確認（骨格）／演出（体の色）
+# 根拠: [30]
+[解説] ロンドン自然史博物館にある、最も完全に近いステゴサウルスの骨格は、全長が{五・六|ごてんろく}メートル、高さが{二・九|にてんきゅう}メートル。若い大人の骨格です。
+# 画面: 確認
+# 根拠: [30]
+[解説] この板は、何のためにあったのでしょうか。かつては、体の熱を逃がしたり、体を温めたりするためだと考えられていました。
+# 根拠: [31]
+[解説] けれど、{二〇〇五年|にせんごねん}の研究は、板の骨の内部を調べ、主な役割は、自分たちの種類を見分けることや、相手に見せることにあり、体温の調節に使われたことは、あってもまれだった、と考えています。
+# 画面: 推定（説が分かれている）
+# 根拠: [31]
+[解説] 一方、尾のとげは、本物の武器だったようです。アロサウルスの尾の骨に、ステゴサウルスのとげが突き刺さったとみられる穴があいた化石が、見つかっています。
+# 画面: 確認（傷のある骨）／推定（その解釈）
+# 根拠: [32]
+
+# ===== 7. 羽毛の恐竜と最初の鳥 =====
+[転換] 空を見上げてみましょう。
+[解説] ジュラ紀の空には、すでに翼竜が飛んでいました。
+# 画面: 確認
+# 根拠: [33]
+[解説] {二〇二二年|にせんにじゅうにねん}には、スコットランドのスカイ島で見つかった、およそ一億七千万年前の翼竜の骨格が報告されました。翼を広げた幅は、{二・五|にてんご}メートルを超えます。骨格のよく残った、ジュラ紀の翼竜としては、最も大きなものです。
+# 画面: 確認（骨格）／推定（翼の幅）
+# 根拠: [33]
+[転換] そして、この時代、恐竜の中から、新しい空の住人が生まれようとしていました。
+[提示] およそ一億六千万年前。いまの中国です。
+# 根拠: [34]
+# 画面: 演出（場面は想像）
+木の枝の上で、羽毛に覆われた小さな動物が、羽を休めています。
+[名前] アンキオルニス。羽毛に覆われた、小さな恐竜です。
+[解説] 前脚にも、後ろ脚にも、長い羽根が生えていました。
+# 画面: 確認
+# 根拠: [34]
+[解説] {二〇一〇年|にせんじゅうねん}の研究は、化石の羽毛に残っていた、色のもとになる小さな粒を調べ、その色を復元しました。
+[解説] 体は灰色と黒っぽい色。頭のてっぺんは赤茶色で、顔には赤茶色の斑点。手足の長い羽根は白く、その先に、黒い模様がありました。
+# 画面: 確認（色の粒の分析）／推定（全身の色の復元）
+# 根拠: [34]
+[解説] アンキオルニスは、これから会う始祖鳥より、古い時代の動物です。
+# 根拠: [34]
+[転換] 羽毛を持っていたのは、鳥に近い恐竜だけではなかったかもしれません。
+[名前] クリンダドロメウス。ロシアのシベリアで見つかった、およそ一億六千八百万年前から一億六千六百万年前の、二本足の小さな植物食の恐竜です。
+# 画面: 確認
+# 根拠: [35]
+[解説] 頭や胸には、糸のような羽毛があり、尾には、重なり合ったうろこがありました。
+# 画面: 確認（化石の跡）／演出（体の色）
+# 根拠: [35]
+[解説] この恐竜は、鳥とは遠い仲間です。研究チームは、羽毛のようなものが、恐竜全体に広く見られた可能性がある、と考えています。
+# 画面: 推定（説が分かれている）
+# 根拠: [35]
+[提示] およそ一億五千万年前。いまのドイツの南部です。
+# 根拠: [36]
+# 画面: 演出（景色は想像）
+[名前] 始祖鳥。アーケオプテリクスとも呼ばれます。
+[解説] ゾルンホーフェンという町の近くの、石灰岩の石切り場から、化石が見つかってきました。
+# 根拠: [36]
+[解説] {一八六一年|せんはっぴゃくろくじゅういちねん}、まず羽根一枚の化石が報告され、同じ年、骨格の化石も報告されました。
+# 根拠: [36]
+[解説] 体には、いまの鳥と同じような羽根と翼がありました。けれど、口には歯が並び、骨の入った長い尾を持ち、手には、かぎ爪のある指がありました。鳥と恐竜の特徴を、あわせ持っていたのです。
+# 画面: 確認
+# 根拠: [36]
+[解説] {二〇二五年|にせんにじゅうごねん}には、アメリカのシカゴにある博物館が、ハトほどの大きさの、つぶれていない始祖鳥の化石を詳しく調べた結果を発表しました。
+# 根拠: [37]
+[解説] 両方の翼の、体に近い部分に、特別な羽根が並んでいることがわかりました。鳥に近い恐竜には見られない羽根で、空を飛ぶために生まれたものだと、研究チームは考えています。
+# 画面: 確認（羽根の跡）／推定（その働き）
+# 根拠: [37]
+[解説] 一方で、始祖鳥が、どれほど上手に飛べたのかは、いまも議論が続いています。研究チームは、地上を歩いて過ごす時間も長かったとみています。
+# 画面: 推定（説が分かれている）
+# 根拠: [36][37]
+[解説] 始祖鳥を最初の鳥と呼ぶことにも、異論があります。けれど、鳥が、肉食恐竜の仲間から生まれたことは、いまでは広く認められています。
+# 根拠: [36]
+[溜め] 鳥は、恐竜の子孫であり、恐竜の一員なのです。
+# 画面: 確認
+# 根拠: [37]
+
+# ===== 8. 足元の小さな哺乳類 =====
+[転換] 最後に、もう一度、足元に目を向けましょう。
+# 画面: 演出（場面は想像）
+夜の川辺。水面に、小さな頭が浮かんでいます。
+[名前] カストロカウダ。中国で見つかった、ジュラ紀の中ごろの、哺乳類に近い仲間です。
+# 画面: 確認
+# 根拠: [38]
+[解説] 体には毛の跡が残り、平たく幅の広い、一部がうろこに覆われた尾を持っていました。いまのビーバーの尾に似ています。泳ぎが得意だったと考えられています。
+# 画面: 確認（化石の跡）／推定（泳ぎ）
+# 根拠: [38]
+[解説] ほかにも、ジュラ紀の後半の中国からは、手足のあいだの皮ふの膜で、木から木へ滑空した仲間や、モグラのように、土の中を掘って暮らした仲間が見つかっています。
+# 画面: 確認（化石）／推定（暮らし方）
+# 根拠: [39]
+[解説] {二〇一五年|にせんじゅうごねん}の研究は、哺乳類とその近い仲間の、歯やあごの形の変化を調べ、ジュラ紀の前半から中ごろにかけて、その変化が、とても速く進んでいたことを示しました。
+# 画面: 推定
+# 根拠: [40]
+[解説] 恐竜の時代の哺乳類は、小さく、目立たない存在だと思われがちです。けれど、この時代、彼らは、泳ぎ、滑空し、土を掘り、さまざまな暮らしを試していたのです。
+# 根拠: [38][39][40]
+[転換] {二〇二四年|にせんにじゅうよねん}には、スコットランドのスカイ島から、新しい発見が報告されました。
+[名前] クルサトドン。ジュラ紀の中ごろの、哺乳類に近い仲間です。
+# 画面: 確認
+# 根拠: [41]
+[解説] 研究チームは、大人と子どもの化石の歯に残る、木の年輪のような成長の跡を調べました。すると、大人は、死んだとき、およそ七歳。子どもは、生後七か月から二年ほどでした。
+# 画面: 確認
+# 根拠: [41]
+[解説] 同じくらいの大きさの、いまの小さな哺乳類と比べると、ゆっくりと育ち、ずっと長く生きることができたらしい、と研究チームは考えています。
+# 画面: 推定
+# 根拠: [41]
+[解説] いまのネズミのように、速く育って、短い一生を送る暮らし方は、もっとあとの時代になって生まれたのかもしれません。
+# 根拠: [41]
+恐竜の足元で、私たちにつながる仲間たちは、小さいながら、確かに、多様な姿へと広がっていたのです。
+# 画面: 推定
+
+# ===== 結び =====
+[提示] 一億四千三百万年前、ジュラ紀が終わります。
+# 根拠: [1]
+[解説] 裂けていく大陸の上で、恐竜たちは、陸を歩いた中で最も大きな動物へと育ちました。
+# 根拠: [25][43]
+[解説] その中から、羽毛をまとった小さな恐竜たちが現れ、空へと向かい始めていました。
+# 根拠: [34][36]
+[解説] そして、その足元では、小さな哺乳類の仲間たちが、さまざまな暮らしを試していました。
+# 画面: 演出
+[転換] 次の時代、白亜紀。
+[溜め] 森に、ついに、花が咲き広がります。そして、あのティラノサウルスや、この日本の大地を歩いた恐竜たちが、姿を現します。
+# 根拠: [42][44]
+[転換] 目を閉じて、もう一度開けてみてください。
+巨人たちの足音は、もう聞こえません。
+でも、羽毛をまとった、あの恐竜たちの子孫は、いまも、あなたの窓の外で、さえずっています。
+# 根拠: [37]
+
+# ===== 参考文献 =====
+# （番号は本文の「# 根拠:」と対応。事実確認は factcheck_ep05.md）
+# [1] International Commission on Stratigraphy, International Chronostratigraphic Chart v2026/06 https://stratigraphy.org/ICSchart/ChronostratChart2026-06.pdf （ジュラ紀 201.4±0.2〜143.1±0.6 Ma、アーレニアン基底 174.7±0.8、オックスフォーディアン基底 161.5±1.0、ティトニアン基底 149.2±0.7）
+# [2] UC Museum of Paleontology, "The Jurassic Period" https://ucmp.berkeley.edu/mesozoic/jurassic/jurassic.php
+# [3] U.S. Geological Survey, "This Dynamic Earth: Historical perspective" https://pubs.usgs.gov/gip/dynamic/historical.html
+# [4] Labails, C., Olivet, J.-L., Aslanian, D. & Roest, W.R. (2010) An alternative early opening scenario for the Central Atlantic Ocean. Earth and Planetary Science Letters 297:355–368. doi:10.1016/j.epsl.2010.06.024
+# [5] Withjack, M.O., Schlische, R.W., Olsen, P.E. & Zhang, Q. (1998) Diachronous rifting, drifting, and inversion on the passive margin of central eastern North America: an analog for other passive margins. AAPG Bulletin 82:817–835. doi:10.1306/1d9bc60b-172d-11d7-8645000102c1865d
+# [6] Letulle, T., Suan, G., Daëron, M., Rogov, M., Lécuyer, C., Vinçon-Laugier, A. et al. (2022) Clumped isotope evidence for Early Jurassic extreme polar warmth and high climate sensitivity. Climate of the Past 18:435–448. doi:10.5194/cp-18-435-2022
+# [7] Gómez, J.J., Comas-Rengifo, M.J. & Goy, A. (2016) Palaeoclimatic oscillations in the Pliensbachian (Early Jurassic) of the Asturian Basin (Northern Spain). Climate of the Past 12:1199–1214. doi:10.5194/cp-12-1199-2016
+# [8] Herendeen, P.S., Friis, E.M., Pedersen, K.R. & Crane, P.R. (2017) Palaeobotanical redux: revisiting the age of the angiosperms. Nature Plants 3:17015. doi:10.1038/nplants.2017.15
+# [9] Coiro, M., Doyle, J.A. & Hilton, J. (2019) How deep is the conflict between molecular and fossil evidence on the age of angiosperms? New Phytologist 223:83–99. doi:10.1111/nph.15708
+# [10] Barba-Montoya, J., dos Reis, M., Schneider, H., Donoghue, P.C.J. & Yang, Z. (2018) Constraining uncertainty in the timescale of angiosperm evolution and the veracity of a Cretaceous Terrestrial Revolution. New Phytologist 218:819–834. doi:10.1111/nph.15011
+# [11] Fu, Q., Diez, J.B., Pole, M., García Ávila, M., Liu, Z.-J., Chu, H. et al. (2018) An unexpected noncarpellate epigynous flower from the Jurassic of China. eLife 7:e38827. doi:10.7554/eLife.38827 ／ Taylor, D.W. & Li, H. (2018) Did flowering plants exist in the Jurassic period? eLife 7:e43421. doi:10.7554/eLife.43421
+# [12] Olsen, P.E., Kent, D.V., Sues, H.-D., Koeberl, C., Huber, H., Montanari, A. et al. (2002) Ascent of dinosaurs linked to an iridium anomaly at the Triassic-Jurassic boundary. Science 296:1305–1307. doi:10.1126/science.1065522
+# [13] Olsen, P., Sha, J., Fang, Y., Chang, C., Whiteside, J.H., Kinney, S. et al. (2022) Arctic ice and the ecological rise of the dinosaurs. Science Advances 8:eabo6342. doi:10.1126/sciadv.abo6342 （第4話の参考文献[26]と同じ）
+# [14] Pol, D., Ramezani, J., Gomez, K., Carballido, J.L., Paulina-Carabajal, A., Rauhut, O.W.M. et al. (2020) Extinction of herbivorous dinosaurs linked to Early Jurassic global warming event. Proceedings of the Royal Society B 287:20202310. doi:10.1098/rspb.2020.2310
+# [15] Natural History Museum (London), "Mary Anning: the unsung hero of fossil discovery" https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html ・"Mary Anning's fossils" https://www.nhm.ac.uk/discover/mary-anning-fossils.html
+# [16] Lindgren, J., Sjövall, P., Thiel, V., Zheng, W., Ito, S., Wakamatsu, K. et al. (2018) Soft-tissue evidence for homeothermy and crypsis in a Jurassic ichthyosaur. Nature 564:359–365. doi:10.1038/s41586-018-0775-x
+# [17] Motani, R., Jiang, D.-y., Tintori, A., Rieppel, O. & Chen, G.-b. (2014) Terrestrial origin of viviparity in Mesozoic marine reptiles indicated by Early Triassic embryonic fossils. PLoS ONE 9:e88640. doi:10.1371/journal.pone.0088640 ／ Miedema, F., Klein, N., Blackburn, D.G., Sander, P.M., Maxwell, E.E. et al. (2023) Heads or tails first? Evolution of fetal orientation in ichthyosaurs, with a scrutiny of the prevailing hypothesis. BMC Ecology and Evolution 23:12. doi:10.1186/s12862-023-02110-4
+# [18] Marx, M., Sjövall, P., Kear, B.P., Jarenmark, M., Eriksson, M.E., Sachs, S. et al. (2025) Skin, scales, and cells in a Jurassic plesiosaur. Current Biology 35:1113–1120.e3. doi:10.1016/j.cub.2025.01.001
+# [19] Trujillo, K.C. & Kowallis, B.J. (2015) Recalibrated legacy 40Ar/39Ar ages for the Upper Jurassic Morrison Formation, Western Interior, U.S.A. Geology of the Intermountain West 2:1–8. doi:10.31711/giw.v2.pp1-8 ／ U.S. Geological Survey, Geolex "Morrison" https://ngmdb.usgs.gov/Geolex/Units/Morrison_9394.html ／ National Park Service, Dinosaur National Monument "Morrison Formation" https://www.nps.gov/dino/learn/nature/morrison-formation.htm
+# [20] Natural History Museum (London), Dino Directory "Diplodocus" https://www.nhm.ac.uk/discover/dino-directory/diplodocus.html ・"How big was Diplodocus carnegii?" https://www.nhm.ac.uk/discover/quick-questions/how-big-was-diplodocus-carnegii.html
+# [21] Taylor, M.P. (2009) A re-evaluation of Brachiosaurus altithorax Riggs 1903 (Dinosauria, Sauropoda) and its generic separation from Giraffatitan brancai (Janensch 1914). Journal of Vertebrate Paleontology 29:787–806. doi:10.1671/039.029.0309
+# [22] Tschopp, E., Mateus, O. & Benson, R.B.J. (2015) A specimen-level phylogenetic analysis and taxonomic revision of Diplodocidae (Dinosauria, Sauropoda). PeerJ 3:e857. doi:10.7717/peerj.857
+# [23] Whitlock, J.A. (2011) Inferences of diplodocoid (Sauropoda: Dinosauria) feeding behavior from snout shape and microwear analyses. PLoS ONE 6:e18304. doi:10.1371/journal.pone.0018304
+# [24] Button, D.J., Rayfield, E.J. & Barrett, P.M. (2014) Cranial biomechanics underpins high sauropod diversity in resource-poor environments. Proceedings of the Royal Society B 281:20142114. doi:10.1098/rspb.2014.2114
+# [25] Sander, P.M., Christian, A., Clauss, M., Fechner, R., Gee, C.T., Griebeler, E.M. et al. (2011) Biology of the sauropod dinosaurs: the evolution of gigantism. Biological Reviews 86:117–155. doi:10.1111/j.1469-185X.2010.00137.x
+# [26] Taylor, M.P., Wedel, M.J. & Naish, D. (2009) Head and neck posture in sauropod dinosaurs inferred from extant animals. Acta Palaeontologica Polonica 54:213–220. doi:10.4202/app.2009.0007 ／ Stevens, K.A. & Parrish, J.M. (1999) Neck posture and feeding habits of two Jurassic sauropod dinosaurs. Science 284:798–800. doi:10.1126/science.284.5415.798
+# [27] Chure, D.J. & Loewen, M.A. (2020) Cranial anatomy of Allosaurus jimmadseni, a new species from the lower part of the Morrison Formation (Upper Jurassic) of Western North America. PeerJ 8:e7803. doi:10.7717/peerj.7803 ／ Natural History Museum of Utah press release "New Species of Allosaurus Discovered in Utah" https://nhmu.utah.edu/press/new-species-allosaurus-discovered-utah
+# [28] Rayfield, E.J., Norman, D.B., Horner, C.C., Horner, J.R., Smith, P.M., Thomason, J.J. & Upchurch, P. (2001) Cranial design and function in a large theropod dinosaur. Nature 409:1033–1037. doi:10.1038/35059070 ／ Scientific American (2001-02-22) https://www.scientificamerican.com/article/dissecting-a-dinosaurs-bi/ ／ Frazzetta, T.H. & Kardong, K.V. (2002) Prey attack by a large theropod dinosaur. Nature 416:387–388. doi:10.1038/416387a
+# [29] Pahl, C.C. & Ruedas, L.A. (2021) Carnosaurs as apex scavengers: Agent-based simulations reveal possible vulture analogues in late Jurassic dinosaurs. Ecological Modelling 458:109706. doi:10.1016/j.ecolmodel.2021.109706 ／ Kane, A., Healy, K. & Ruxton, G.D. (2023) Was Allosaurus really predominantly a scavenger? Ecological Modelling 476:110247. doi:10.1016/j.ecolmodel.2022.110247
+# [30] Natural History Museum (London) press release "World's most complete Stegosaurus goes on show" https://www.nhm.ac.uk/press-office/press-releases/world_s-most-complete-stegosaurus-goes-on-show.html ／ Maidment, S.C.R., Brassey, C. & Barrett, P.M. (2015) The postcranial skeleton of an exceptionally complete individual of the plated dinosaur Stegosaurus stenops (Dinosauria: Thyreophora) from the Upper Jurassic Morrison Formation of Wyoming, U.S.A. PLoS ONE 10:e0138352. doi:10.1371/journal.pone.0138352
+# [31] Main, R.P., de Ricqlès, A., Horner, J.R. & Padian, K. (2005) The evolution and function of thyreophoran dinosaur scutes: implications for plate function in stegosaurs. Paleobiology 31:291–314. doi:10.1666/0094-8373(2005)031[0291:TEAFOT]2.0.CO;2
+# [32] Carpenter, K., Sanders, F., McWhinney, L.A. & Wood, L. (2005) Evidence for predator-prey relationships: examples for Allosaurus and Stegosaurus. In: Carpenter, K. (ed.) The Carnivorous Dinosaurs. Indiana University Press, pp. 325–350 （書籍の章、DOIなし）／ Mallison, H. (2011) Defense capabilities of Kentrosaurus aethiopicus Hennig, 1915. Palaeontologia Electronica 14(2):10A https://palaeo-electronica.org/2011_2/255/255.pdf
+# [33] Jagielska, N., O'Sullivan, M., Funston, G.F., Butler, I.B., Challands, T.J., Clark, N.D.L. et al. (2022) A skeleton from the Middle Jurassic of Scotland illuminates an earlier origin of large pterosaurs. Current Biology 32:1446–1453.e4. doi:10.1016/j.cub.2022.01.073
+# [34] Li, Q., Gao, K.-Q., Vinther, J., Shawkey, M.D., Clarke, J.A., D'Alba, L. et al. (2010) Plumage color patterns of an extinct dinosaur. Science 327:1369–1372. doi:10.1126/science.1186290 ／ Hu, D., Hou, L., Zhang, L. & Xu, X. (2009) A pre-Archaeopteryx troodontid theropod from China with long feathers on the metatarsus. Nature 461:640–643. doi:10.1038/nature08322 ／ Natural History Museum (London), Dino Directory "Anchiornis" https://www.nhm.ac.uk/discover/dino-directory/anchiornis.html
+# [35] Godefroit, P., Sinitsa, S.M., Dhouailly, D., Bolotsky, Y.L., Sizov, A.V., McNamara, M.E. et al. (2014) A Jurassic ornithischian dinosaur from Siberia with both feathers and scales. Science 345:451–455. doi:10.1126/science.1253351 ／ Cincotta, A., Pestchevitskaya, E.B., Sinitsa, S.M., Markevich, V.S., Debaille, V., Reshetova, S.A. et al. (2019) The rise of feathered dinosaurs: Kulindadromeus zabaikalicus, the oldest dinosaur with 'feather-like' structures. PeerJ 7:e6239. doi:10.7717/peerj.6239
+# [36] Natural History Museum (London), Dino Directory "Archaeopteryx" https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html ・"What were the first birds like?" https://www.nhm.ac.uk/discover/what-were-the-first-birds-like.html
+# [37] O'Connor, J., Clark, A., Kuo, P.-C., Kiat, Y., Fabbri, M., Shinya, A. et al. (2025) Chicago Archaeopteryx informs on the early evolution of the avian bauplan. Nature 641:1201–1207. doi:10.1038/s41586-025-08912-4 ／ Field Museum press release (2025-05-14) https://www.fieldmuseum.org/about/press/uv-light-and-ct-scans-helped-scientists-unlock-hidden-details
+# [38] Ji, Q., Luo, Z.-X., Yuan, C.-X. & Tabrum, A.R. (2006) A swimming mammaliaform from the Middle Jurassic and ecomorphological diversification of early mammals. Science 311:1123–1127. doi:10.1126/science.1123026
+# [39] Meng, Q.-J., Grossnickle, D.M., Liu, D., Zhang, Y.-G., Neander, A.I., Ji, Q. & Luo, Z.-X. (2017) New gliding mammaliaforms from the Jurassic. Nature 548:291–296. doi:10.1038/nature23476 ／ Luo, Z.-X., Meng, Q.-J., Ji, Q., Liu, D., Zhang, Y.-G. & Neander, A.I. (2015) Evolutionary development in basal mammaliaforms as revealed by a docodontan. Science 347:760–764. doi:10.1126/science.1260880
+# [40] Close, R.A., Friedman, M., Lloyd, G.T. & Benson, R.B.J. (2015) Evidence for a mid-Jurassic adaptive radiation in mammals. Current Biology 25:2137–2142. doi:10.1016/j.cub.2015.06.047
+# [41] Panciroli, E., Benson, R.B.J., Fernandez, V., Fraser, N.C., Humpage, M., Luo, Z.-X. et al. (2024) Jurassic fossil juvenile reveals prolonged life history in early mammals. Nature 632:815–822. doi:10.1038/s41586-024-07733-1
+# [42] UC Museum of Paleontology, "Angiosperms: Fossil Record" https://ucmp.berkeley.edu/anthophyta/anthophytafr.html （第4話の参考文献[27]と同じ）
+# [43] Apaldetti, C., Martínez, R.N., Cerda, I.A., Pol, D. & Alcober, O. (2018) An early trend towards gigantism in Triassic sauropodomorph dinosaurs. Nature Ecology & Evolution 2:1227–1232. doi:10.1038/s41559-018-0599-y （第4話の参考文献[18]と同じ）
+# [44] Schulte, P., Alegret, L., Arenillas, I., Arz, J.A., Barton, P.J., Bown, P.R. et al. (2010) The Chicxulub asteroid impact and mass extinction at the Cretaceous-Paleogene boundary. Science 327:1214–1218. doi:10.1126/science.1177265
