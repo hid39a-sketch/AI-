@@ -22,6 +22,27 @@ SHORTS = {
         ("標準", "ただし、あなたのご先祖に、帆があったわけではありません。", "ep03/S14_朝日と帆.png"),
         ("溜め", "遠い親戚、意外なところにいました。", "ep03/S10_ディメトロドン.png"),
     ]),
+    # 第5話の台本 15・170 行（Sander 2011 など）
+    "kamazu": ("よく噛んで食べなさい", [
+        ("溜め", "よく噛んで食べなさい、と言われがち。", "ep05/S27_ディプロドクス.png"),
+        ("標準", "でも、ジュラ紀の、首の長い恐竜はちがいました。", "ep05/設定_D_ディプロドクス.png"),
+        ("溜め", "全長、25メートル前後。", "ep05/G07_ディプロドクスの大きさ.png"),
+        ("溜め", "それなのに、食べた植物を、ほとんど噛まずに、飲み込んでいたと考えられています。", "ep05/S27_ディプロドクス.png"),
+        ("標準", "噛まないから、頭を小さく、軽くできた。", "ep05/G08_長い首と小さな頭.png"),
+        ("標準", "頭が軽ければ、首を長くしても支えられます。", "ep05/G08_長い首と小さな頭.png"),
+        ("標準", "これが、巨大になれた理由の一つだと考えられています。", "ep05/設定_D_ディプロドクス.png"),
+        ("溜め", "よい子は、よく噛んで食べましょう。", "ep05/S27_ディプロドクス.png"),
+    ]),
+    # 第6話の台本 252〜253 行（Erickson et al. 2004）
+    "seichoki": ("成長期の食べ盛り", [
+        ("溜め", "成長期って、とにかく食べる。", "ep06/S52_森のはずれのティラノサウルス.png"),
+        ("標準", "でも、ティラノサウルスの成長期は、桁がちがいます。", "ep06/設定_T_ティラノサウルス.png"),
+        ("標準", "{2004年|にせんよねん}の研究は、骨に残る成長のしるしから、育ち方を調べました。", "ep06/G11_成長の速さ.png"),
+        ("溜め", "最も速く育つ時期には、一日に二キロあまりも、体重が増えていました。", "ep06/G11_成長の速さ.png"),
+        ("標準", "二十年ほどで、骨が大人の体に。", "ep06/S52_森のはずれのティラノサウルス.png"),
+        ("標準", "長生きしたものでも、二十八歳ほどだったとされます。", "ep06/設定_T_ティラノサウルス.png"),
+        ("溜め", "育ち盛りの食費、考えたくありません。", "ep06/S52_森のはずれのティラノサウルス.png"),
+    ]),
 }
 FOOT = "続きは本編で（チャンネルから）"
 
@@ -40,12 +61,12 @@ def speak(text, preset, out):
     with wave.open(io.BytesIO(data)) as w:
         return w.getnframes() / w.getframerate()
 
-def wrap(text, width=13):
-    # 字幕を1行13字ほどで折り返す。読点・句点のあとで切れるなら優先する
+def wrap(text, width=11):
+    # 字幕を1行11〜13字ほどで折り返す。読点・句点のあとで切れるなら優先する
     lines, cur = [], ""
     for ch in text:
         cur += ch
-        if len(cur) >= width and ch in "、。" or len(cur) >= width + 3:
+        if len(cur) >= width and ch in "、。" or len(cur) >= width + 2:
             lines.append(cur); cur = ""
     if cur:
         lines.append(cur)
@@ -74,7 +95,7 @@ def main(name):
                  "[bg][fg]overlay=0:620,"
                  f"drawtext=fontfile='{FONT}':text='古代あるある':fontsize=64:fontcolor=0xFFD24A:borderw=6:bordercolor=black:x=(w-text_w)/2:y=230,"
                  f"drawtext=fontfile='{FONT}':textfile='{esc(hd)}':fontsize=92:fontcolor=white:borderw=8:bordercolor=black:x=(w-text_w)/2:y=330,"
-                 f"drawtext=fontfile='{FONT}':textfile='{esc(sub)}':fontsize=62:line_spacing=18:fontcolor=white:borderw=6:bordercolor=black:x=(w-text_w)/2:y=1300,"
+                 f"drawtext=fontfile='{FONT}':textfile='{esc(sub)}':fontsize=60:line_spacing=16:fontcolor=white:borderw=6:bordercolor=black:x=(w-text_w)/2:y=1300,"
                  f"drawtext=fontfile='{FONT}':textfile='{esc(ft)}':fontsize=44:fontcolor=0xDDDDDD:borderw=5:bordercolor=black:x=(w-text_w)/2:y=1700,"
                  "format=yuv420p[v]")
         mp4 = tmp / f"{i:02d}.mp4"
