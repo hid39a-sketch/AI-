@@ -61,7 +61,7 @@
 ・Fernandez, V. et al. (2013) https://doi.org/10.1371/journal.pone.0064978
 ・Chen, Z.-Q. & Benton, M.J. (2012) https://doi.org/10.1038/ngeo1475
 ・Nel, A., Prokop, J., Pecharová, M., Engel, M.S. & Garrouste, R. (2018) https://doi.org/10.1038/s41598-018-30629-w
-・Retallack, G.J., Veevers, J.J. & Morante, R. (1996) https://doi.org/10.1130/0016-7606(1996)108<0195:GCGBPT>2.3.CO;2 ／ OSTI abstract https://www.osti.gov/biblio/420910
+・Retallack, G.J., Veevers, J.J. & Morante, R. (1996) https://doi.org/10.1130/0016-7606(1996)108＜0195:GCGBPT＞2.3.CO;2 ／ OSTI abstract https://www.osti.gov/biblio/420910
 ・Han, F., Zhao, Q. & Liu, J. (2021) https://doi.org/10.1371/journal.pone.0248681
 
 ▼この動画について
@@ -111,7 +111,7 @@
 ・Fernandez, V. et al. (2013) Synchrotron reveals Early Triassic odd couple: injured amphibian and aestivating therapsid share burrow. PLoS ONE 8:e64978. https://doi.org/10.1371/journal.pone.0064978
 ・Chen, Z.-Q. & Benton, M.J. (2012) The timing and pattern of biotic recovery following the end-Permian mass extinction. Nature Geoscience 5:375–383. https://doi.org/10.1038/ngeo1475
 ・Nel, A., Prokop, J., Pecharová, M., Engel, M.S. & Garrouste, R. (2018) Palaeozoic giant dragonflies were hawker predators. Scientific Reports 8:12141. https://doi.org/10.1038/s41598-018-30629-w （ペルム紀のメガネウロプシス、翼開長約71cm。第2話の参考文献[8]と同じ）
-・Retallack, G.J., Veevers, J.J. & Morante, R. (1996) Global coal gap between Permian–Triassic extinction and Middle Triassic recovery of peat-forming plants. GSA Bulletin 108:195–207. https://doi.org/10.1130/0016-7606(1996)108<0195:GCGBPT>2.3.CO;2 ／ OSTI abstract https://www.osti.gov/biblio/420910
+・Retallack, G.J., Veevers, J.J. & Morante, R. (1996) Global coal gap between Permian–Triassic extinction and Middle Triassic recovery of peat-forming plants. GSA Bulletin 108:195–207. https://doi.org/10.1130/0016-7606(1996)108＜0195:GCGBPT＞2.3.CO;2 ／ OSTI abstract https://www.osti.gov/biblio/420910
 ・Han, F., Zhao, Q. & Liu, J. (2021) Preliminary bone histological analysis of Lystrosaurus (Therapsida: Dicynodontia) from the Lower Triassic of North China, and its implication for lifestyle and environments after the end-Permian extinction. PLoS ONE 16:e0248681. https://doi.org/10.1371/journal.pone.0248681
 
 内容に誤りがあった場合は、このコメントと概要欄で訂正します。

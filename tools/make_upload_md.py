@@ -99,6 +99,7 @@ for l in lines:
     m = re.match(r"# \[(\d+)\] (.+)", l)
     if m and not m.group(2).startswith("（"):
         r = "・" + re.sub(r"doi:(10\.\S+)", r"https://doi.org/\1", m.group(2))
+        r = r.replace("<", "＜").replace(">", "＞")  # YouTube の説明欄は < > があると保存できない
         all_refs.append(r)
         if m.group(1) not in SKIP_REFS:
             refs.append(r)
